@@ -237,6 +237,9 @@ ul:not(.browser-default)>li {
   .icon-close{
     margin: 0 5px;
   }
+  .collection .collection-item{
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 420px)
 {
