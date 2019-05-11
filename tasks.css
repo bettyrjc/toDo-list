@@ -238,9 +238,17 @@ ul:not(.browser-default)>li {
     margin: 0 5px;
   }
 }
+@media screen and (max-width: 420px)
+{
+.collection .collection-item{
+  font-family:arial;
+  font-size: 15px;
+}
+}
+
 @media screen and (max-width: 380px)
 {
-    .collection .collection-item{
+  .collection .collection-item{
     font-family: arial;
     font-size: 10px;
   }
